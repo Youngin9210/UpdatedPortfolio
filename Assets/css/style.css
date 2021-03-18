@@ -20,15 +20,42 @@ nav {
 .navbar-brand,
 .nav-link {
   color: var(--font-light);
+  text-shadow: 2px 2px 8px var(--font-dark);
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
   color: var(--font-hover);
+  text-shadow: 2px 2px 8px var(--font-light);
 }
 
 main {
-  margin: 5% 0;
+  margin: 1% 0;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.titleName {
+  color: var(--font-dark);
+  text-shadow: 2px 2px 8px var(--font-light);
+  font-size: 5rem;
+  letter-spacing: 1.5rem;
+}
+
+.titleDescription {
+  color: var(--font-light);
+  /* text-shadow: 5px 5px 8px var(--font-hover); */
+  letter-spacing: 0.25rem;
+  padding: 2%;
+}
+
+#aboutMe {
+  text-align: center;
+  border: none;
+  margin: 2%;
+  color: var(--font-light);
 }
 
 .myWorkCarousel {

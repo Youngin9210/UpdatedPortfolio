@@ -36,23 +36,12 @@
   <body>
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kyle Young</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content-center"
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
             <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
             <a class="nav-link" href="#myWork">My Work</a>
             <a class="nav-link" href="#contactMe">Contact Me</a>
@@ -62,26 +51,23 @@
     </nav>
 
     <main>
+      <div class="container-fluid titleContainer">
+        <h1 class="titleName">Kyle Young</h1>
+        <h5 class="titleDescription">An Aspiring Full-Stack Developer!</h5>
+        <div class="text-center">
+          <img src="Assets/Images/headshot.png" class="rounded" alt="" />
+        </div>
+      </div>
+
       <!-- About Me -->
 
-      <div class="mb-3">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="Assets/Images/headshot.png" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
+      <div class="card bg-transparent" id="aboutMe">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
         </div>
       </div>
 
