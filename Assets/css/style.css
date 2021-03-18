@@ -20,13 +20,13 @@ nav {
 .navbar-brand,
 .nav-link {
   color: var(--font-light);
-  text-shadow: 2px 2px 8px var(--font-dark);
+  text-shadow: 0px 2px 8px var(--font-dark);
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
   color: var(--font-hover);
-  text-shadow: 2px 2px 8px var(--font-light);
+  text-shadow: 0px 2px 8px var(--font-light);
 }
 
 main {
@@ -46,7 +46,6 @@ main {
 
 .titleDescription {
   color: var(--font-light);
-  /* text-shadow: 5px 5px 8px var(--font-hover); */
   letter-spacing: 0.25rem;
   padding: 2%;
 }
@@ -56,6 +55,29 @@ main {
   border: none;
   margin: 2%;
   color: var(--font-light);
+}
+
+hr {
+  width: 30%;
+  margin: auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  opacity: 1;
+}
+
+.aboutMeTextContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeText {
+  max-width: 50%;
 }
 
 .myWorkCarousel {
@@ -81,6 +103,7 @@ main {
 
 .myWorkText {
   background: var(--itemText-bg);
+  border-radius: 25px;
 }
 
 .myWorkText h5,

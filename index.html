@@ -54,8 +54,8 @@
       <div class="container-fluid titleContainer">
         <h1 class="titleName">Kyle Young</h1>
         <h5 class="titleDescription">An Aspiring Full-Stack Developer!</h5>
-        <div class="text-center">
-          <img src="Assets/Images/headshot.png" class="rounded" alt="" />
+        <div class="imgContainer">
+          <img src="Assets/Images/headshot.png" class="titleImg" alt="" />
         </div>
       </div>
 
@@ -64,17 +64,22 @@
       <div class="card bg-transparent" id="aboutMe">
         <div class="card-body">
           <h5 class="card-title">About Me</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+          <hr class="style-seven" />
+          <div class="aboutMeTextContainer">
+            <p class="card-text aboutMeText">
+              I am currently a student attending a Full Stack Coding Bootcamp
+              through The Ohio State University. I have been self-learning web
+              development for the past several months and look forward to
+              growing my knowledge in this industry!
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- My Work -->
 
       <div
-        id="carouselExampleDark"
+        id="myWork"
         class="carousel slide myWorkCarousel"
         data-bs-ride="carousel"
         data-bs-touch="true"
@@ -102,7 +107,7 @@
           ></button>
         </div>
         <div class="carousel-inner myWorkItems">
-          <div class="carousel-item active" data-bs-interval="10000">
+          <div class="carousel-item active" data-bs-interval="8000">
             <img
               src="Assets/Images/WorkdayScheduler.png"
               class="d-block w-100"
@@ -162,7 +167,7 @@
     <footer>
       <!-- Contact Me -->
 
-      <ul class="nav justify-content-center">
+      <ul class="nav justify-content-center" id="contactMe">
         <li class="nav-item">
           <a
             class="nav-link"
