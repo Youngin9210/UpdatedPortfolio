@@ -9,6 +9,10 @@
   --contact-bg: rgba(225, 111, 124, 0.75);
 }
 
+* {
+  font-family: "Cabin", sans-serif;
+}
+
 body {
   background-color: var(--background);
   margin-bottom: 2%;
@@ -18,13 +22,41 @@ nav {
   background-color: var(--nav-bg);
 }
 
-.navbar-brand,
+.navContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.togglerIconSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.togglerIcon {
+  color: var(--font-light);
+  font-size: 2rem;
+}
+
+.navItemsContainer {
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-link {
   color: var(--font-light);
   text-shadow: 0px 2px 8px var(--font-dark);
 }
 
-.navbar-brand:hover,
+.togglerIcon:hover,
 .nav-link:hover {
   color: var(--font-hover);
   text-shadow: 0px 2px 8px var(--font-light);
@@ -43,6 +75,7 @@ main {
   text-shadow: 2px 2px 8px var(--font-light);
   font-size: 5rem;
   letter-spacing: 1.5rem;
+  font-family: "Redressed", cursive;
 }
 
 .titleDescription {
