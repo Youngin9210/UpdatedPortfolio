@@ -1,4 +1,62 @@
+/* Delcaring global variables to be used in css */
+:root {
+  --font-light: #f7ebec;
+  --font-dark: #0a0908;
+  --font-hover: #e16f7c;
+  --nav-bg: #779fa1;
+  --background: #22333b;
+  --itemText-bg: rgba(34, 51, 59, 0.75);
+  --before-background: rgba(51, 53, 65, 0.95);
+}
+
 body {
-  margin: 1%;
-  background-image: url(../Images/gradient.png);
+  background-color: var(--background);
+}
+
+nav {
+  background-color: var(--nav-bg);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--font-light);
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--font-hover);
+}
+
+main {
+  margin: 5% 0;
+}
+
+.myWorkCarousel {
+  display: flex;
+  justify-content: center;
+}
+
+.myWorkItems {
+  border-radius: 25px;
+  max-width: 80%;
+  box-shadow: 0;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.myWorkItems:hover {
+  box-shadow: 0px 0px 10px 10px var(--font-hover);
+  cursor: grab;
+}
+
+.myWorkItems:active {
+  cursor: grabbing;
+}
+
+.myWorkText {
+  background: var(--itemText-bg);
+}
+
+.myWorkText h5,
+.myWorkText p {
+  color: var(--font-light);
 }
