@@ -60,7 +60,7 @@ main {
 
 hr {
   width: 30%;
-  margin: auto;
+  margin: 1% auto;
   border: 0;
   height: 1px;
   background-image: linear-gradient(
@@ -78,7 +78,7 @@ hr {
 }
 
 .aboutMeText {
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .myWorkCarousel {
