@@ -6,11 +6,12 @@
   --nav-bg: #779fa1;
   --background: #22333b;
   --itemText-bg: rgba(34, 51, 59, 0.75);
-  --before-background: rgba(51, 53, 65, 0.95);
+  --contact-bg: rgba(225, 111, 124, 0.75);
 }
 
 body {
   background-color: var(--background);
+  margin-bottom: 2%;
 }
 
 nav {
@@ -109,4 +110,88 @@ hr {
 .myWorkText h5,
 .myWorkText p {
   color: var(--font-light);
+}
+
+/* Contact Me Form */
+
+.contactMeContainer {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contactForm {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: var(--contact-bg);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10px var(--font-light);
+}
+
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.inputFields,
+.msg {
+  width: 48%;
+}
+
+.inputFields .contactInput,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--font-light);
+  padding: 10px;
+  color: var(--font-dark);
+  width: 100%;
+}
+
+.msg textarea {
+  height: 244px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--font-light);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--font-light);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--font-light);
+}
+
+.contactBtn {
+  background: var(--background);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: var(--font-light);
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .contactForm {
+    flex-direction: column;
+  }
+
+  .msg textarea {
+    height: 80px;
+  }
+
+  .inputFields,
+  .msg {
+    width: 100%;
+  }
 }
