@@ -222,23 +222,46 @@
         </li>
       </ul>
 
+      <!-- utilizing formspree.io to submit contact forms to email and my personal discord server -->
       <div class="contactMeContainer" id="contactMe">
-        <div class="contactForm">
+        <form
+          class="contactForm"
+          action="https://formspree.io/f/meqpyydr"
+          method="POST"
+        >
           <div class="inputFields">
-            <input type="text" class="contactInput" placeholder="Name" />
-            <input type="text" class="contactInput" placeholder="Email" />
+            <input
+              type="text"
+              class="contactInput"
+              placeholder="Name"
+              name="Name"
+            />
+            <input
+              type="email"
+              class="contactInput"
+              name="_replyto"
+              placeholder="Email"
+            />
             <input
               type="text"
               class="contactInput"
               placeholder="Phone (555)-555-5555"
+              name="Phone"
             />
-            <input type="text" class="contactInput" placeholder="Subject" />
+            <input
+              type="text"
+              class="contactInput"
+              placeholder="Subject"
+              name="Subject"
+            />
           </div>
           <div class="msg">
-            <textarea placeholder="Message"></textarea>
-            <div class="contactBtn">Send</div>
+            <textarea placeholder="Message" name="message"></textarea>
+            <div class="btnContainer">
+              <button class="contactBtn" type="submit">Send</button>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
     <!-- BootstrapJS and PopperJS -->
