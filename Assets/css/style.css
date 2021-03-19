@@ -63,7 +63,7 @@ nav {
 }
 
 main {
-  margin: 1% 0;
+  margin: 2% 0;
 }
 
 .titleContainer {
@@ -82,6 +82,11 @@ main {
   color: var(--font-light);
   letter-spacing: 0.25rem;
   padding: 2%;
+}
+
+.github,
+.linkedIn {
+  font-size: 5rem;
 }
 
 #aboutMe {
