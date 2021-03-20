@@ -4,9 +4,9 @@ Week 8 Homework for OSU Bootcamp
 
 ## Description
 
-The following repository was made to showcase my portfolio. My portfolio includes an about me, a my work section that displays projects that I have completed so far, and also includes contact information in the footer.
+This is an updated version of my previous portfolio. Using Bootstrap to help make it more mobile friendly.
 
-Check it out here https://github.com/Youngin9210/Portfolio
+Check it out here https://youngin9210.github.io/UpdatedPortfolio/
 
 ## Table of Contents
 
@@ -18,17 +18,21 @@ Check it out here https://github.com/Youngin9210/Portfolio
 
 ## Screenshots
 
-### Header Nav and Hero background image
+### Nav and Header
 
-![image](Assets/Images/nav-hero.png)
+![image](Assets/Images/readme-images/nav.png)
 
 ### About Me section
 
-![image](Assets/Images/about-me.png)
+![image](Assets/Images/readme-images/aboutMe.png)
 
-### My Work section and Footer Nav
+### My Work
 
-![image](Assets/Images/myWork-footer.png)
+![image](Assets/Images/readme-images/myWork.png)
+
+### Contact Me
+
+![image](Assets/Images/readme-images/contactMe.png)
 
 ## Installation
 
@@ -40,9 +44,9 @@ Kyle Young https://github.com/Youngin9210
 
 ## License
 
-<img alt="GitHub" src="https://img.shields.io/github/license/youngin9210/Portfolio">
+<img alt="GitHub" src="https://img.shields.io/github/license/youngin9210/UpdatedPortfolio">
 
 ## Badges
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/youngin9210/Portfolio">
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/youngin9210/Portfolio">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/youngin9210/UpdatedPortfolio">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/youngin9210/UpdatedPortfolio">
