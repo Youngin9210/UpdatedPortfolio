@@ -148,7 +148,6 @@ hr {
 
 .myWorkItems:hover {
   box-shadow: 0px 0px 10px 10px var(--font-hover);
-  /* cursor: grab; */
 }
 
 .myWorkText {
