@@ -134,6 +134,10 @@ main {
   max-width: 75%;
 }
 
+/* .resumeText {
+  font-size: 1.25rem;
+} */
+
 .resumeDownload {
   text-decoration: none;
   color: var(--font-light);
