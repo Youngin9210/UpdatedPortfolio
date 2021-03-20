@@ -153,6 +153,7 @@ hr {
 .myWorkText {
   background: var(--itemText-bg);
   border-radius: 25px;
+  padding: 20px;
 }
 
 .myWorkText h5,
