@@ -55,6 +55,7 @@ nav {
 .nav-link {
   color: var(--font-light);
   text-shadow: 0px 2px 8px var(--font-dark);
+  font-family: "Poppins", sans-serif;
 }
 
 .togglerIcon:hover,
@@ -75,8 +76,8 @@ main {
 }
 
 .titleName {
-  color: var(--font-dark);
-  text-shadow: 2px 2px 8px var(--font-light);
+  color: var(--nav-bg);
+  text-shadow: 2px 2px 2px var(--font-hover);
   font-size: 5rem;
   letter-spacing: 1.5rem;
   font-family: "Redressed", cursive;
@@ -105,7 +106,8 @@ main {
 #aboutMe h5,
 #myWork h5,
 #contactMe h5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: "Redressed", cursive;
 }
 
 #aboutMe hr,
