@@ -2,11 +2,12 @@
 :root {
   --font-light: #f7ebec;
   --font-dark: #0a0908;
-  --font-hover: #e16f7c;
-  --nav-bg: #779fa1;
+  --font-hover: #50d8d7;
+  /* --nav-bg: #8e94f2; */
+  --nav-bg: #a54657;
   --background: #22333b;
   --itemText-bg: rgba(34, 51, 59, 0.75);
-  --contact-bg: rgba(225, 111, 124, 0.75);
+  --contact-bg: rgba(165, 70, 87, 0.75);
 }
 
 * {
@@ -57,7 +58,8 @@ nav {
 }
 
 .togglerIcon:hover,
-.nav-link:hover {
+.nav-link:hover,
+.resumeDownload:hover {
   color: var(--font-hover);
   text-shadow: 0px 2px 8px var(--font-light);
 }
@@ -114,10 +116,21 @@ hr {
 .aboutMeTextContainer {
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 
 .aboutMeText {
   max-width: 75%;
+}
+
+.resumeDownload {
+  text-decoration: none;
+  color: var(--font-light);
+  font-size: 1.5rem;
+}
+
+#myWork {
+  border-radius: 25px;
 }
 
 .myWorkCarousel {
@@ -187,7 +200,7 @@ hr {
   border: 0;
   border-bottom: 2px solid var(--font-light);
   padding: 10px;
-  color: var(--font-dark);
+  color: var(--font-light);
   width: 100%;
 }
 

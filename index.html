@@ -102,7 +102,7 @@
       <div class="card bg-transparent" id="aboutMe">
         <div class="card-body">
           <h5 class="card-title">About Me</h5>
-          <hr class="style-seven" />
+          <hr />
           <div class="aboutMeTextContainer">
             <p class="card-text aboutMeText">
               I am currently a student attending a Full Stack Coding Bootcamp
@@ -111,6 +111,12 @@
               growing my knowledge in this industry!
             </p>
           </div>
+          <a
+            href="/Assets/Resume/KyleYoungResume.pdf"
+            class="resumeDownload"
+            download
+            >Resume <i class="fas fa-download"></i
+          ></a>
         </div>
       </div>
 
@@ -143,14 +149,26 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div class="carousel-inner myWorkItems">
           <div class="carousel-item active" data-bs-interval="8000">
-            <img
-              src="Assets/Images/WorkdayScheduler.png"
-              class="d-block w-100"
-              alt=""
-            />
+            <a
+              href="https://youngin9210.github.io/WorkDay-Schedule-Tracker/"
+              target="_blank"
+            >
+              <img
+                src="Assets/Images/WorkdayScheduler.png"
+                class="d-block w-100"
+                alt=""
+                id="myWork1"
+              />
+            </a>
             <div class="carousel-caption d-none d-md-block myWorkText">
               <h5>First slide label</h5>
               <p>
@@ -159,7 +177,17 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="Assets/Images/JsQuiz.png" class="d-block w-100" alt="" />
+            <a
+              href="https://youngin9210.github.io/JS-Code-Quiz/"
+              target="_blank"
+            >
+              <img
+                src="Assets/Images/JsQuiz.png"
+                class="d-block w-100"
+                alt=""
+                id="myWork2"
+              />
+            </a>
             <div class="carousel-caption d-none d-md-block myWorkText">
               <h5>Second slide label</h5>
               <p>
@@ -168,13 +196,38 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="Assets/Images/WeatherDashboard.png"
-              class="d-block w-100"
-              alt=""
-            />
+            <a
+              href="https://youngin9210.github.io/Weather-Dashboard/"
+              target="_blank"
+            >
+              <img
+                src="Assets/Images/WeatherDashboard.png"
+                class="d-block w-100"
+                alt=""
+                id="myWork3"
+              />
+            </a>
             <div class="carousel-caption d-none d-md-block myWorkText">
               <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://youngin9210.github.io/Passwords-for-Dayzzz/"
+              target="_blank"
+            >
+              <img
+                src="Assets/Images/PasswordGenerator.png"
+                class="d-block w-100"
+                alt=""
+                id="myWork4"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block myWorkText">
+              <h5>Fourth slide label</h5>
               <p>
                 Some representative placeholder content for the third slide.
               </p>
