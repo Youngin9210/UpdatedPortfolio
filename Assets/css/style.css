@@ -147,7 +147,7 @@ main {
   font-size: 1.5rem;
 }
 
-.myWorkCarousel {
+#myWorkCarousel {
   display: flex;
   justify-content: center;
 }
