@@ -93,14 +93,24 @@ main {
   font-size: 5rem;
 }
 
-#aboutMe {
+#aboutMe,
+#myWork,
+#contactMe {
   text-align: center;
   border: none;
   margin: 2%;
   color: var(--font-light);
 }
 
-hr {
+#aboutMe h5,
+#myWork h5,
+#contactMe h5 {
+  font-size: 2rem;
+}
+
+#aboutMe hr,
+#myWork hr,
+#contactMe hr {
   width: 30%;
   margin: 1% auto;
   border: 0;
@@ -128,10 +138,6 @@ hr {
   text-decoration: none;
   color: var(--font-light);
   font-size: 1.5rem;
-}
-
-#myWork {
-  border-radius: 25px;
 }
 
 .myWorkCarousel {
